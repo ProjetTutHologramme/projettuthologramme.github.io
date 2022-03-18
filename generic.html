@@ -29,6 +29,8 @@
 						<li><a href="#hauteur-écran">Hauteur de l'écran</a></li>
 						<li><a href="#distance">Distance écran-public</a></li>
 						<li><a href="#importation">Importation hologramme</a></li>
+						<li><a href="#sauvegarde">Sauvegarde d'hologramme</a></li>
+						<li><a href="#mocap">Motion Capture</a></li>
 					</ul>
 				</nav>	
 
@@ -36,7 +38,7 @@
 					<div id="main">
 
 						<!-- Content -->
-						
+					
 							<section id="interface" class="main special">	
 								<h2>Interface</h2>
 
@@ -48,6 +50,7 @@
 								
 							</section>
 
+
 							<section id="hauteur-écran" class="main special">	
 								<h2>Hauteur de l'écran</h2>
 
@@ -56,6 +59,7 @@
 									cette hauteur en centimètre, ici 450 centimètres.</p>
 								<span><img src="images/doc/h1.png" width="300" height="350" alt="logo"/><img src="images/doc/h2.png" width="300" height="350" alt="logo"/></span>
 							</section>
+							
 							
 							<section id="distance" class="main special">	
 								<h2>Distance écran-public</h2>
@@ -66,14 +70,44 @@
 									déplacera la vue vers le haut, la diminuer la déplacera vers le bas.</p>
 								<p>Coordonnées en <b>z</b> : modifient la distance entre l’écran et le public. Plus la valeur entrée est grande, 
 									plus cette distance est importante.</p>
-								<span><img src="images/doc/dep.png" width="350" height="180" alt="distance-écran-public"/></span>
+								<span><img src="images/doc/dep.png" width="350" height="210" alt="distance-écran-public"/></span>
 							</section>
 							
-							<section id="Importation" class="main special">	
+							
+							<section id="importation" class="main special">	
 								<h2>Importation hologramme</h2>
 
 								<p>Dans le bloc <b> « Gestion de l’hologramme » </b>, le bouton “Importer Hologramme” permet d’ouvrir un explorateur, 
 									pour accéder à vos fichiers.</p>
+								<span><img src="images/doc/import.png" width="300" height="350" alt="logo"/></span>
+							</section>
+
+
+							<section id="sauvegarde" class="main special">	
+								<h2>Sauvegarde d'hologramme</h2>
+
+								<p>Sauvegarde d'une scène à l’aide des boutons présents dans le bloc <b> « Gestion sauvegardes » </b> en bas du panneau latéral. 
+									Importation des scènes respectivement avec les boutons F1, F2, F3. </p>
+								<span><img src="images/doc/import.png" width="300" height="350" alt="logo"/></span>
+							</section>
+
+
+							<section id="mocap" class="main special">	
+								<h2>Motion Capture</h2>
+
+								<p>Utiliser le logiciel avec de la Motion Capture pour du temps réel :
+									•	ouvrir le logiciel Xsens Animate Pro (ou XSens MVN)
+									•	calibrer le modèle qui servira pour la Motion Capture
+									•	allumer un port en cliquant sur « Network streamer options », il nous servira plus tard  
+									
+
+									•	importer votre modèle 3D dans Unity (si celui-ci n'est pas compatible, le temps réel ne marcheras pas)
+									•	dans l'inspecteur de votre modèle, cliquez sur "Rig", puis choisir "Humanoid" dans 'Animation Type'
+									•	assurez-vous que votre modèle soit en T-pose (si non, modifier sa position)
+									•	glisser votre modèle dans le "MvnPuppet"
+									•	assurez-vous que le 'Controller' de 'Animator' de votre modèle soit à "None"
+									•	ajouter l'avatar de votre modèle dans l'avatar du "MvnPuppet"
+									 </p>
 								<span><img src="images/doc/import.png" width="300" height="350" alt="logo"/></span>
 							</section>
 
