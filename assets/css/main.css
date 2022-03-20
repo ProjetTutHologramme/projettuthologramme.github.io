@@ -170,10 +170,7 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
-
-	strong, b {
-		font-weight: 400;
-	}
+		
 
 	em, i {
 		font-style: italic;
