@@ -99,12 +99,13 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/bgimglevrai.png"); /*image de fond*/
-		background-position: center;
+		/*background-image: url("images/.png");*/ /*image de fond*/
+		/*background-position: center;*/
 		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);*/
+		background: linear-gradient(#469e66, #a2ddb8);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -121,7 +122,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-image: url("images/bgimglevrai.png"); /*image de fond*/
+		/*background-image: url("images/bgimglevrai.png");*/ /*image de fond*/
 		background-position: center;
 	}
 
@@ -3336,8 +3337,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #fbfffdbb; /*couleur fond*/
-		color: #000000;
+		background-color: #2b5a42bb; /*couleur fond*/
+		color: #ffffff; /*couleur écriture*/
 		border-radius: 0.25em;				
 	}
 
