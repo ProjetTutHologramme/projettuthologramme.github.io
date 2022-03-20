@@ -170,7 +170,7 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 		}
-		
+
 
 	em, i {
 		font-style: italic;
@@ -3335,7 +3335,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #253a2f; /*couleur fond*/
+		background-color: #172e22; /*couleur fond*/
 		color: #ffffff; /*couleur écriture*/
 		border-radius: 0.25em;				
 	}
@@ -3349,7 +3349,7 @@ input, select, textarea {
 		}
 
 		#main strong, #main b {
-			color: #3f7f57;
+			color: #8bc09f;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
